@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b13">
+  <meta name="description" content="Get in touch with 403 Studio about a website or IT project. Concept form preview.">
+  <title>Contact — 403 Studio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header solid-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="403 home">403<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links"><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a class="nav-contact" href="contact.html" aria-current="page">Let's talk <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main" class="wrap contact-layout">
+    <div>
+      <p class="eyebrow"><span class="status-light"></span> START A CONVERSATION</p>
+      <h1>Let's build<br><em>what's next.</em></h1>
+      <p class="contact-intro">A new website, a smarter digital presence, or a steadier IT setup. Tell us what's on your mind.</p>
+      <div class="contact-mark" aria-hidden="true">✳</div>
+    </div>
+    <!-- Demo only: JavaScript stops submission; there is no form action or server. -->
+    <form class="contact-form" data-demo-form>
+      <label for="name">Your name<input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
+      <label for="email">Email address<input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required></label>
+      <label for="interest">What can we help with?<select id="interest" name="interest" required><option value="" disabled selected>Select a service</option><option value="website">Website design & development</option><option value="it">IT services</option><option value="both">A bit of both</option></select></label>
+      <label for="message">Tell us a little more<textarea id="message" name="message" placeholder="What are you working on?" required></textarea></label>
+      <button class="button button-lime" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
+      <p class="form-note">Concept preview only. This form does not send or store your information.</p>
+      <p class="form-feedback" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-main"><a class="footer-brand" href="index.html" aria-label="403 home">403<span>.</span></a><p>Digital experiences with substance.<br>Technology support with a human touch.</p><div class="footer-links"><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a href="contact.html">Contact</a></div></div>
+    <div class="wrap footer-bottom"><span>© <span data-year>2026</span> 403 Studio. Concept site.</span><span>DESIGNED FOR WHAT'S NEXT <span class="footer-asterisk">✳</span></span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
